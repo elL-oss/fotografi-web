@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lumière Studio — Fotografi & Kreatif Visual</title>
+  <meta name="description" content="Studio visual analog & digital untuk fotografi editorial, potret, dan brand.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="announce">BOOKING SESI 2026 DIBUKA — KONSULTASI GRATIS</div>
+
+  <header class="header" id="header">
+    <div class="container nav">
+      <a href="#home" class="logo">lumière<span>.</span></a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#home">Beranda</a>
+        <a href="#portfolio">Portofolio</a>
+        <a href="#service">Layanan</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#pricing">Harga</a>
+        <a href="#contact">Kontak</a>
+      </nav>
+      <button class="burger" id="burger" aria-label="Buka menu"><span></span><span></span></button>
+    </div>
+  </header>
+  <div class="overlay" id="overlay"></div>
+
+  <main>
+    <!-- BERANDA -->
+    <section class="hero" id="home">
+      <div class="container hero-inner">
+        <div class="hero-text reveal">
+          <span class="pill">Studio Visual Analog & Digital</span>
+          <h1>Momen yang tersimpan tenang dalam cahaya.</h1>
+          <p>Kami menciptakan citra editorial, potret, dan brand dengan cahaya alami dan sentuhan film — abadi, jujur, dan tertata lembut.</p>
+          <a href="#contact" class="btn btn-dark">Booking Sesi</a>
+          <div class="index"><b>01</b><i></i><span>01</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <div class="marquee-group">
+          <span>Editorial</span><i>✦</i><span>Potret</span><i>✦</i><span>Alam & Outdoor</span><i>✦</i><span>Brand</span><i>✦</i><span>Film 35mm</span><i>✦</i><span>Cahaya Alami</span><i>✦</i><span>Lookbook</span><i>✦</i><span>Produk</span><i>✦</i>
+        </div>
+        <div class="marquee-group">
+          <span>Editorial</span><i>✦</i><span>Potret</span><i>✦</i><span>Alam & Outdoor</span><i>✦</i><span>Brand</span><i>✦</i><span>Film 35mm</span><i>✦</i><span>Cahaya Alami</span><i>✦</i><span>Lookbook</span><i>✦</i><span>Produk</span><i>✦</i>
+        </div>
+      </div>
+    </div>
+
+    <!-- PORTOFOLIO -->
+    <section class="section" id="portfolio">
+      <span class="bignum" aria-hidden="true">02</span>
+      <span class="blob t" style="width:340px;height:340px;top:-80px;left:-120px"></span>
+      <div class="container">
+        <div class="head reveal">
+          <span class="pill">Portofolio</span>
+          <h2>Karya pilihan</h2>
+          <p>Beberapa cerita yang pernah kami abadikan, dari studio hingga lanskap terbuka.</p>
+          <span class="orn"><b></b></span>
+        </div>
+        <div class="tabs reveal" id="tabs">
+          <button class="active" data-filter="all">Semua</button>
+          <button data-filter="editorial">Editorial</button>
+          <button data-filter="portrait">Potret</button>
+          <button data-filter="outdoor">Alam & Outdoor</button>
+          <button data-filter="brand">Brand</button>
+        </div>
+        <div class="grid" id="grid">
+          <figure class="item" data-cat="editorial"><div class="thumb"><img src="https://picsum.photos/seed/p1/800/1000" alt="Soft Linen" loading="lazy"><span class="view">↗</span></div><figcaption><b>Soft Linen</b><span>Editorial</span></figcaption></figure>
+          <figure class="item" data-cat="portrait"><div class="thumb"><img src="https://picsum.photos/seed/p2/800/1000" alt="Nadia, Pagi Hari" loading="lazy"><span class="view">↗</span></div><figcaption><b>Nadia, Pagi Hari</b><span>Potret</span></figcaption></figure>
+          <figure class="item" data-cat="outdoor"><div class="thumb"><img src="https://picsum.photos/seed/p3/800/1000" alt="Kabut Dataran Tinggi" loading="lazy"><span class="view">↗</span></div><figcaption><b>Kabut Dataran Tinggi</b><span>Alam & Outdoor</span></figcaption></figure>
+          <figure class="item" data-cat="brand"><div class="thumb"><img src="https://picsum.photos/seed/p4/800/1000" alt="Atelier Objects" loading="lazy"><span class="view">↗</span></div><figcaption><b>Atelier Objects</b><span>Brand</span></figcaption></figure>
+          <figure class="item" data-cat="editorial"><div class="thumb"><img src="https://picsum.photos/seed/p5/800/1000" alt="Musim yang Tenang" loading="lazy"><span class="view">↗</span></div><figcaption><b>Musim yang Tenang</b><span>Editorial</span></figcaption></figure>
+          <figure class="item" data-cat="portrait"><div class="thumb"><img src="https://picsum.photos/seed/p6/800/1000" alt="Raka & Sita" loading="lazy"><span class="view">↗</span></div><figcaption><b>Raka & Sita</b><span>Potret</span></figcaption></figure>
+        </div>
+        <div class="more reveal">
+          <a href="#" class="btn btn-outline">Lihat lebih banyak di Instagram</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- LAYANAN -->
+    <section class="section grad" id="service">
+      <span class="bignum" aria-hidden="true">03</span>
+      <span class="blob t" style="width:320px;height:320px;bottom:-100px;right:-100px"></span>
+      <div class="container">
+        <div class="head reveal">
+          <span class="pill">Layanan</span>
+          <h2>Apa yang kami kerjakan</h2>
+          <p>Tiga layanan utama yang dirancang mengikuti kebutuhan dan cerita unikmu.</p>
+          <span class="orn"><b></b></span>
+        </div>
+        <div class="cards3">
+          <article class="card reveal" style="--d:.05s">
+            <span class="no">01</span>
+            <div class="ico"><svg viewBox="0 0 24 24"><path d="M4 7h3l2-3h6l2 3h3v12H4z"/><circle cx="12" cy="13" r="3.5"/></svg></div>
+            <h3>Sesi Editorial & Lookbook</h3>
+            <p>Cerita fashion dan gaya hidup dengan arahan artistik, dari konsep dan moodboard hingga foto akhir yang telah diretouch.</p>
+            <a href="#contact">Selengkapnya →</a>
+          </article>
+          <article class="card reveal" style="--d:.15s">
+            <span class="no">02</span>
+            <div class="ico"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c1-4 4-6 8-6s7 2 8 6"/></svg></div>
+            <h3>Sesi Pribadi & Potret</h3>
+            <p>Potret natural yang santai untuk individu, pasangan, dan keluarga, diambil dengan cahaya siang atau film.</p>
+            <a href="#contact">Selengkapnya →</a>
+          </article>
+          <article class="card reveal" style="--d:.25s">
+            <span class="no">03</span>
+            <div class="ico"><svg viewBox="0 0 24 24"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9z"/><path d="M12 12l8-4.5M12 12v9M12 12L4 7.5"/></svg></div>
+            <h3>Visual Komersial & Produk</h3>
+            <p>Visual yang bersih dan terarah untuk brand, produk, dan kampanye yang membutuhkan identitas visual yang tenang.</p>
+            <a href="#contact">Selengkapnya →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROSES KERJA -->
+    <section class="section" id="process">
+      <div class="container">
+        <div class="head reveal">
+          <span class="pill">Proses Kerja</span>
+          <h2>Dari ide sampai hasil akhir</h2>
+          <p>Alur kerja yang sederhana dan transparan supaya kamu tenang di setiap tahap.</p>
+          <span class="orn"><b></b></span>
+        </div>
+        <div class="steps">
+          <div class="step reveal" style="--d:.05s">
+            <div class="n">01</div>
+            <h3>Konsultasi</h3>
+            <p>Kita ngobrol soal ide, kebutuhan, dan referensi visual yang kamu suka.</p>
+          </div>
+          <div class="step reveal" style="--d:.15s">
+            <div class="n">02</div>
+            <h3>Perencanaan</h3>
+            <p>Kami menyusun konsep, moodboard, lokasi, dan jadwal pemotretan.</p>
+          </div>
+          <div class="step reveal" style="--d:.25s">
+            <div class="n">03</div>
+            <h3>Pemotretan</h3>
+            <p>Sesi berjalan santai dengan cahaya alami, analog maupun digital.</p>
+          </div>
+          <div class="step reveal" style="--d:.35s">
+            <div class="n">04</div>
+            <h3>Hasil Akhir</h3>
+            <p>Foto terpilih diedit dan dikirim lewat galeri online yang rapi.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TENTANG KAMI -->
+    <section class="section alt" id="about">
+      <span class="bignum" aria-hidden="true">04</span>
+      <span class="blob c" style="width:380px;height:380px;top:20%;left:-160px"></span>
+      <div class="container about">
+        <div class="about-media reveal">
+          <div class="about-img">
+            <img src="https://picsum.photos/seed/studio/900/1000" alt="Ruang kerja studio" loading="lazy">
+          </div>
+          <div class="badge"><b>2018</b><span>Berdiri sejak</span></div>
+        </div>
+        <div class="about-text reveal">
+          <span class="pill">Tentang Kami</span>
+          <h2>Fotografi yang pelan, jujur, dan berpijak pada cahaya.</h2>
+          <p>Lumière berawal dari praktik kamar gelap analog yang kecil, lalu tumbuh menjadi studio visual yang dibangun di atas kesabaran. Kami percaya foto terbaik tidak pernah terburu-buru — ia lahir dari cahaya yang baik, kepercayaan, dan suasana yang tenang.</p>
+          <p>Kini kami memadukan keahlian film dan digital untuk menghasilkan citra yang personal, elegan, dan tahan lama.</p>
+          <div class="stats">
+            <div><b data-count="8" data-suffix="+">8+</b><span>Tahun Pengalaman</span></div>
+            <div><b data-count="350" data-suffix="+">350+</b><span>Proyek Terkurasi</span></div>
+            <div><b data-count="100" data-suffix="%">100%</b><span>Ahli Cahaya Alami & Film</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONI -->
+    <section class="section grad2" id="testimonial">
+      <span class="bignum" aria-hidden="true">05</span>
+      <div class="container">
+        <div class="head reveal">
+          <span class="pill">Testimoni</span>
+          <h2>Kata mereka tentang kami</h2>
+          <p>Cerita dari klien yang sudah mempercayakan momennya kepada kami.</p>
+          <span class="orn"><b></b></span>
+        </div>
+        <div class="cards3">
+          <article class="card quote reveal" style="--d:.05s">
+            <span class="qm">“</span>
+            <div class="stars">★★★★★</div>
+            <p>Prosesnya santai banget, hasilnya natural dan terasa seperti diri sendiri. Fotonya sering aku pakai untuk profil dan portofolio.</p>
+            <div class="who"><i>NP</i><div><b>Nadia Putri</b><span>Content Creator</span></div></div>
+          </article>
+          <article class="card quote reveal" style="--d:.15s">
+            <span class="qm">“</span>
+            <div class="stars">★★★★★</div>
+            <p>Tim Lumière paham betul arah visual brand kami. Lookbook koleksi terbaru selesai tepat waktu dengan kualitas yang konsisten.</p>
+            <div class="who"><i>RP</i><div><b>Raka Pratama</b><span>Founder, Atelier Objects</span></div></div>
+          </article>
+          <article class="card quote reveal" style="--d:.25s">
+            <span class="qm">“</span>
+            <div class="stars">★★★★★</div>
+            <p>Sesi keluarga kami jadi kenangan yang hangat. Anak-anak nyaman, dan hasil filmnya cantik sekali.</p>
+            <div class="who"><i>DA</i><div><b>Dewi Anggraini</b><span>Klien Sesi Keluarga</span></div></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- HARGA -->
+    <section class="section" id="pricing">
+      <span class="bignum" aria-hidden="true">06</span>
+      <span class="blob t" style="width:300px;height:300px;top:-60px;right:-100px"></span>
+      <div class="container">
+        <div class="head reveal">
+          <span class="pill">Harga</span>
+          <h2>Paket yang sederhana dan transparan</h2>
+          <p>Pilih paket yang paling sesuai. Semua bisa disesuaikan dengan kebutuhan proyekmu.</p>
+          <span class="orn"><b></b></span>
+        </div>
+        <div class="cards3 pricing">
+          <article class="card price reveal" style="--d:.05s">
+            <h3>Essential</h3>
+            <div class="amount">Rp 1.500.000</div>
+            <ul>
+              <li>Sesi 1 jam</li>
+              <li>1 lokasi</li>
+              <li>15 foto digital hasil edit</li>
+              <li>Galeri online</li>
+            </ul>
+            <a href="#contact" class="btn btn-outline" data-pkg="Essential">Pilih Essential</a>
+          </article>
+          <article class="card price featured reveal" style="--d:.15s">
+            <span class="pill pill-teal">Paling Populer</span>
+            <h3>Signature</h3>
+            <div class="amount">Rp 3.500.000</div>
+            <ul>
+              <li>Sesi 3 jam</li>
+              <li>2 lokasi</li>
+              <li>40 foto digital hasil edit</li>
+              <li>2 roll film 35mm</li>
+              <li>Set cetak foto instan</li>
+            </ul>
+            <a href="#contact" class="btn btn-dark" data-pkg="Signature">Pilih Signature</a>
+          </article>
+          <article class="card price reveal" style="--d:.25s">
+            <h3>Editorial Full-Day</h3>
+            <div class="amount">Rp 7.500.000</div>
+            <ul>
+              <li>Sesi seharian 8 jam</li>
+              <li>Creative direction & moodboard</li>
+              <li>80+ foto digital hasil edit</li>
+              <li>5 roll film 35mm</li>
+              <li>Lisensi penggunaan komersial</li>
+            </ul>
+            <a href="#contact" class="btn btn-outline" data-pkg="Editorial Full-Day">Pilih Editorial</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- KONTAK -->
+    <section class="section alt" id="contact">
+      <span class="bignum" aria-hidden="true">07</span>
+      <span class="blob t" style="width:340px;height:340px;bottom:-120px;left:-120px"></span>
+      <div class="container contact">
+        <div class="contact-info reveal">
+          <span class="pill">Kontak</span>
+          <h2>Mari berkarya bersama.</h2>
+          <p>Ceritakan idemu dan kami akan membalas dalam 24 jam.</p>
+          <ul>
+            <li><b>Email</b><a href="mailto:hello@lumierestudio.id">hello@lumierestudio.id</a></li>
+            <li><b>WhatsApp</b><a href="https://wa.me/6281234567890" target="_blank" rel="noopener">+62 812 3456 7890</a></li>
+            <li><b>Studio</b><span>Jl. Melati No. 12, Surabaya, Jawa Timur</span></li>
+            <li><b>Jam Buka</b><span>Senin – Sabtu, 09.00 – 18.00 WIB</span></li>
+            <li><b>Sosial</b><span><a href="#">Instagram</a> · <a href="#">Pinterest</a> · <a href="#">Behance</a></span></li>
+          </ul>
+        </div>
+        <form class="form reveal" id="form">
+          <label>Nama<input type="text" name="name" required placeholder="Nama lengkapmu"></label>
+          <label>Email<input type="email" name="email" required placeholder="kamu@email.com"></label>
+          <label>Paket
+            <select name="package" id="package">
+              <option value="">Pilih paket</option>
+              <option>Essential</option>
+              <option>Signature</option>
+              <option>Editorial Full-Day</option>
+            </select>
+          </label>
+          <label>Pesan<textarea name="message" rows="4" required placeholder="Ceritakan tentang proyekmu"></textarea></label>
+          <button type="submit" class="btn btn-dark">Kirim Pesan</button>
+          <p class="note" id="note" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container foot">
+      <div class="foot-brand">
+        <a href="#home" class="logo">lumière<span>.</span></a>
+        <small>Menangkap cahaya, merawat cerita.</small>
+      </div>
+      <nav>
+        <a href="#portfolio">Portofolio</a>
+        <a href="#service">Layanan</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#pricing">Harga</a>
+        <a href="#contact">Kontak</a>
+      </nav>
+      <small>© <span id="year"></span> Lumière Studio. Hak cipta dilindungi.</small>
+    </div>
+  </footer>
+
+  <a href="#contact" class="fab">Hubungi Kami</a>
+
+  <script src="script.js"></script>
+</body>
+</html>
